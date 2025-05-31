@@ -2,19 +2,6 @@
 
 API sederhana berbasis Django dan Django REST Framework untuk manajemen data User.
 
-## Fitur
-- CRUD User (Create, Read, Update, Delete)
-- Endpoint khusus untuk mengambil user yang aktif
-- Response API sudah distandarisasi
-
-## Model User
-| Field      | Tipe Data   | Keterangan         |
-|------------|-------------|-------------------|
-| name       | CharField   | Nama user         |
-| email      | EmailField  | Unik, email user  |
-| is_active  | Boolean     | Status aktif      |
-| created_at | DateTime    | Tanggal dibuat    |
-
 ## Endpoint
 Semua endpoint diawali dengan `/api/`
 
@@ -47,13 +34,6 @@ Semua endpoint diawali dengan `/api/`
    ```bash
    python manage.py runserver
    ```
-
-## Penggunaan Git
-```
-git remote add origin https://github.com/qadrima/django-started-api.git
-git branch -M main
-git push -u origin main
-```
 
 ## Lisensi
 MIT 
